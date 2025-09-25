@@ -844,18 +844,6 @@
             .form-row {
                 grid-template-columns: 1fr;
             }
-            
-            .section-header h2 {
-                font-size: 2rem;
-            }
-            
-            .container {
-                padding: 0 15px;
-            }
-
-            .hero {
-                background-attachment: scroll;
-            }
         }
     </style>
 </head>
@@ -871,15 +859,15 @@
                 <li><a href="#home">الرئيسية</a></li>
                 <li><a href="#about">عن الحضانة</a></li>
                 <li><a href="#activities">الأنشطة</a></li>
-                <li><a href="#gallery">معرض الصور</a></li>
+                <li><a href="#gallery">الصور</a></li>
                 <li><a href="#videos">فيديوهات</a></li>
                 <li><a href="#contact">تواصل معنا</a></li>
             </ul>
-            <div class="hamburger">
+            <button class="hamburger">
                 <span></span>
                 <span></span>
                 <span></span>
-            </div>
+            </button>
         </div>
     </nav>
 
@@ -887,14 +875,14 @@
     <section id="home" class="hero">
         <div class="hero-content">
             <h1 class="hero-title">حضانة الأكرم</h1>
-            <p class="hero-subtitle">تعليم متميز للأطفال من سن 3 سنوات الى ما قبل المدرسة</p>
+            <p class="hero-subtitle">بيئة آمنة ومحبة لتربية وتعليم أطفالكم من سن 3 سنوات الى ما قبل المدرسه</p>
             <div class="hero-buttons">
-                <a href="#about" class="btn btn-primary">
+                <a href="#about" class="btn btn-primary btn-large">
                     <i class="fas fa-info-circle"></i>
                     تعرف علينا
                 </a>
-                <a href="#contact" class="btn btn-secondary">
-                    <i class="fas fa-phone"></i>
+                <a href="https://wa.me/2001005218547" target="_blank" class="btn btn-secondary btn-large">
+                    <i class="fab fa-whatsapp"></i>
                     تواصل معنا
                 </a>
             </div>
@@ -906,7 +894,7 @@
         <div class="container">
             <div class="section-header">
                 <h2>عن حضانة الأكرم</h2>
-                <p>مكان آمن ومحب لتعليم وتربية أطفالكم بأفضل الطرق الحديثة</p>
+                <p>مكان آمن ومحب لتربية وتعليم أطفالكم بأفضل الطرق الحديثة</p>
             </div>
             <div class="about-content">
                 <div class="about-image">
@@ -915,29 +903,29 @@
                 <div class="about-features">
                     <div class="feature">
                         <div class="feature-icon green">
-                            <i class="fas fa-quran"></i>
+                            <i class="fas fa-book-open"></i>
                         </div>
                         <div class="feature-content">
                             <h3>تحفيظ القرآن الكريم</h3>
-                            <p>نهتم بتحفيظ القرآن الكريم للأطفال بأحكام التجويد وبطرق محببة وممتعة</p>
+                            <p>نوفر برامج تحفيظ القرآن الكريم بطرق ممتعة ومناسبة لأعمار الأطفال</p>
                         </div>
                     </div>
                     <div class="feature">
                         <div class="feature-icon blue">
-                            <i class="fas fa-language"></i>
+                            <i class="fas fa-globe"></i>
                         </div>
                         <div class="feature-content">
-                            <h3>تعلم اللغات</h3>
-                            <p>نعلم الأطفال اللغة العربية الفصحى والإنجليزية بأساليب تفاعلية حديثة</p>
+                            <h3>تعليم اللغة الإنجليزية</h3>
+                            <p>برامج تفاعلية لتعليم اللغة الإنجليزية للأطفال بأساليب حديثة</p>
                         </div>
                     </div>
                     <div class="feature">
                         <div class="feature-icon pink">
-                            <i class="fas fa-heart"></i>
+                            <i class="fas fa-shield-alt"></i>
                         </div>
                         <div class="feature-content">
-                            <h3>بيئة آمنة ومحبة</h3>
-                            <p>نوفر بيئة آمنة ومحفزة للتعلم مع الاهتمام بالنمو الاجتماعي والعاطفي للطفل</p>
+                            <h3>بيئة آمنة</h3>
+                            <p>نضمن بيئة آمنة ونظيفة ومجهزة بأحدث وسائل الأمان والسلامة</p>
                         </div>
                     </div>
                 </div>
@@ -950,26 +938,14 @@
         <div class="container">
             <div class="section-header">
                 <h2>أنشطتنا التعليمية</h2>
-                <p>برامج متنوعة وشاملة لتنمية قدرات الأطفال في جميع المجالات</p>
+                <p>برامج تعليمية متنوعة تساعد على تنمية مهارات طفلكم</p>
             </div>
             <div class="activities-grid">
                 <div class="activity-card">
                     <div class="activity-icon green">
-                        <i class="fas fa-pray"></i>
-                    </div>
-                    <h3>اذكار</h3>
-                </div>
-                <div class="activity-card">
-                    <div class="activity-icon blue">
                         <i class="fas fa-quran"></i>
                     </div>
-                    <h3>قران</h3>
-                </div>
-                <div class="activity-card">
-                    <div class="activity-icon yellow">
-                        <i class="fas fa-book-reader"></i>
-                    </div>
-                    <h3>تجويد</h3>
+                    <h3>القرآن الكريم</h3>
                 </div>
                 <div class="activity-card">
                     <div class="activity-icon pink">
@@ -1043,6 +1019,7 @@
                 <p>شاهد أطفالنا وهم يتعلمون ويلعبون في بيئة آمنة ومحفزة</p>
             </div>
             <div class="gallery-grid">
+                <!-- Original Images -->
                 <div class="gallery-item">
                     <img src="img/35076775_1247527518711903_1149059723417354240_n.jpg" alt="أطفال سعداء في الحضانة">
                     <div class="gallery-overlay">
@@ -1109,6 +1086,68 @@
                         <h3>أطفال في بيئة آمنة</h3>
                     </div>
                 </div>
+
+                <!-- NEW FACEBOOK IMAGES -->
+                <div class="gallery-item">
+                    <img src="https://scontent.fcai19-2.fna.fbcdn.net/v/t39.30808-6/555413303_1288842386586840_4610979918400996639_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_ohc=S-RL2qu46AAQ7kNvwF4ndiW&_nc_oc=Adm7oGeZmPXsMIS4BB9uTfcyZw756Y6penLfXhUJ2g15cePRhwqNTOrfpT3asrbKcGw&_nc_zt=23&_nc_ht=scontent.fcai19-2.fna&_nc_gid=TYg32Bnvt0KKP_JW0Sf4wQ&oh=00_AfYU-XX56VYTyO61EUOwsRS6G011skrM0Og7Sb8aBmJajw&oe=68DB1A9C" alt="صور جديدة من الحضانة">
+                    <div class="gallery-overlay">
+                        <h3>أنشطة تعليمية ممتعة</h3>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://scontent.fcai19-2.fna.fbcdn.net/v/t39.30808-6/554743231_1288841363253609_102169181439610176_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_ohc=3bviDTb6yVwQ7kNvwF2gAUN&_nc_oc=AdkunmqRFjLHCINUbvdolEbpiLbqz5hSAAIgdRnPmvgrQSlDpzlSxsbkvF89tziQRGs&_nc_zt=23&_nc_ht=scontent.fcai19-2.fna&_nc_gid=wvSDBx39t6d7IBt5J1b0Qg&oh=00_AfaYE7eo2N9qPg9qdWH4TrRaUgBcu6xL8TxwxNHbY6jn_g&oe=68DB1800" alt="لحظات سعيدة في الحضانة">
+                    <div class="gallery-overlay">
+                        <h3>لحظات سعيدة مع الأطفال</h3>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://scontent.fcai19-2.fna.fbcdn.net/v/t39.30808-6/552910269_1288841546586924_8956122131532697375_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=833d8c&_nc_ohc=M7TNx7hTVkYQ7kNvwGQbZL7&_nc_oc=Adkt-71qVR5cZSenQMRYX363G03VhSeaROOco7ZRRlcryRmZF5Gm2-wsiB8KN8GDc1M&_nc_zt=23&_nc_ht=scontent.fcai19-2.fna&_nc_gid=5QKSEv5LgL0r6Zk06QJf5Q&oh=00_AfYL1W8rutnpnc7tvEHRihS9QTPj-sLO5yNcCHsGazLq1A&oe=68DB1575" alt="أطفالنا في أجمل لحظاتهم">
+                    <div class="gallery-overlay">
+                        <h3>أطفالنا في أجمل لحظاتهم</h3>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://scontent.fcai19-2.fna.fbcdn.net/v/t39.30808-6/552889291_1288841629920249_438978934730271192_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=833d8c&_nc_ohc=Jt1yHC0fpyYQ7kNvwFVtCiJ&_nc_oc=AdngqbwZwI4YoTxYD_UMVWJri2LZxbDzqJpis_I8ng2V1Y24YZCC2abZ8fZ487Sy7OE&_nc_zt=23&_nc_ht=scontent.fcai19-2.fna&_nc_gid=BXhNkedJmZ4whnbj4WYF5Q&oh=00_AfZsAKPtGDCMkigsFYyRRIKadTY5QvaFjul3GTwRN1exRQ&oe=68DB2317" alt="تعلم وإبداع">
+                    <div class="gallery-overlay">
+                        <h3>تعلم وإبداع مستمر</h3>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://scontent.fcai19-2.fna.fbcdn.net/v/t39.30808-6/553052134_1288841676586911_3166614492569838783_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=833d8c&_nc_ohc=Jj8ahp3jHNoQ7kNvwF_nLsE&_nc_oc=AdlYrnoXb2MJkrO4e314xxVxb0DAbzVjqqsXkjFz0UhrBwtoBtDRaNk-ZmSV2we1CQU&_nc_zt=23&_nc_ht=scontent.fcai19-2.fna&_nc_gid=oSXmECEYisNJ4jfnzLnlzw&oh=00_AfZ_nmgw189Z49FZbF4jsx5hphMjMkcsGgoGoWZ_W0zsOA&oe=68DB0DCB" alt="أوقات مرح وتعلم">
+                    <div class="gallery-overlay">
+                        <h3>أوقات مرح وتعلم</h3>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://scontent.fcai19-2.fna.fbcdn.net/v/t39.30808-6/552772989_1288841959920216_1280860868364419322_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=833d8c&_nc_ohc=SKTswz6KM3kQ7kNvwFauEWk&_nc_oc=AdllN8q0X-PW-4ByE1fOkoaO1HDS__8Gt9qG0oLh-1uAGfEf6QbKyIslhvQt9aMgrQo&_nc_zt=23&_nc_ht=scontent.fcai19-2.fna&_nc_gid=Au4Sb71miednpQfyjhw8BQ&oh=00_AfYdMMbK1Bys8cXdgnstCzDTgd7hJ175GM0T-5ZweVa-xw&oe=68DB294D" alt="جو تعليمي رائع">
+                    <div class="gallery-overlay">
+                        <h3>جو تعليمي رائع</h3>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://scontent.fcai19-2.fna.fbcdn.net/v/t39.30808-6/555556885_1288842146586864_2670618333225358198_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_ohc=vHQOwM4uwN8Q7kNvwGZ5ejQ&_nc_oc=AdlXnncr-NxOpl0bQQmpubyTXx5vBARtr7QaMCKiKUffHdspICQR5yUx7ycS_naP0b4&_nc_zt=23&_nc_ht=scontent.fcai19-2.fna&_nc_gid=uzY7F4OZnrJRAEsR_Y3PHw&oh=00_AfaDnA5vz7OkAvpqG3RXlTte6P8g2f2T6glj-x69DzGNqQ&oe=68DB1DEE" alt="نشاطات متنوعة">
+                    <div class="gallery-overlay">
+                        <h3>نشاطات متنوعة وممتعة</h3>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://scontent.fcai19-2.fna.fbcdn.net/v/t39.30808-6/555211780_1288842239920188_3508453442534274387_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=833d8c&_nc_ohc=RlQckG7CjPoQ7kNvwEQoBI_&_nc_oc=AdlOvjBRPQeMYBtiIbbrarNEGAal7DsWpnk9YebEDG2PBGPI7hHNZ9iiiblgkNlBJFI&_nc_zt=23&_nc_ht=scontent.fcai19-2.fna&_nc_gid=H4P8NrPrZRQSD2RbNf7sRQ&oh=00_AfZXCBcbs14D4DJiXzzveiz9qBlR2fX-R6T84Eokd-pIrg&oe=68DB4243" alt="بيئة تعليمية ممتازة">
+                    <div class="gallery-overlay">
+                        <h3>بيئة تعليمية ممتازة</h3>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://scontent.fcai19-2.fna.fbcdn.net/v/t39.30808-6/554726816_1288842286586850_6916695862608297937_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=833d8c&_nc_ohc=Z884rEj5ipEQ7kNvwE2jzL5&_nc_oc=AdnbkFQlGSZva2OUWt9PE4OVMf3LSVzAPXQiI4XU0VLGRbM7YSGYbHuuSEmSIf5DY4c&_nc_zt=23&_nc_ht=scontent.fcai19-2.fna&_nc_gid=oTuN28wJm35hypyObsEHZA&oh=00_AfbGtbdbZ1u-aeuAx7sy4DRsaRf-uMytIDg1ypkBKUrAPA&oe=68DB266B" alt="أطفال سعداء">
+                    <div class="gallery-overlay">
+                        <h3>أطفال سعداء ونشيطون</h3>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://scontent.fcai19-2.fna.fbcdn.net/v/t39.30808-6/554450637_1288842343253511_4264285311666983593_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=833d8c&_nc_ohc=CWyisiZzqSoQ7kNvwEnAeSD&_nc_oc=AdmW7RBSA53MK4ltlwhFD3P6BzUuelAaVKfGXnZloHnP997fzNUyEwFTpX596YOJ-Po&_nc_zt=23&_nc_ht=scontent.fcai19-2.fna&_nc_gid=xfm8pDLoY0e2r8qkBZkNLQ&oh=00_AfYDU7XHlw9_k-cbO7rmbrZiKwZ1n6J-J-LPwCXkvE445g&oe=68DB1932" alt="لحظات تعليمية رائعة">
+                    <div class="gallery-overlay">
+                        <h3>لحظات تعليمية رائعة</h3>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -1123,6 +1162,10 @@
             <div class="videos-grid">
                 <div class="video-container">
                     <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpermalink.php%3Fstory_fbid%3Dpfbid02ko6HE6mJKow4fspTLBjN4788bBRCVzjDHaPtzsJccb1zSbsvnQZpL31buAR82mwYl%26id%3D100063832724563&show_text=true&width=500" width="500" height="250" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+                </div>
+
+                <div class="video-container">
+<iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2F100063832724563%2Fvideos%2F1960026157900952%2F&show_text=false&width=380&t=0" width="380" height="476" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
                 </div>
                 
                 <div class="video-container">
@@ -1413,4 +1456,3 @@
     </script>
 </body>
 </html>
-
