@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>حضانة الأكرم - للأطفال من سن 3 سنوات الى ما قبل المدرسه</title>
-    <link rel="icon" type="image/jpg" href="img/359476659_703373901800361_6117811552900908543_n.jpg">
+    <link rel="icon" type="image/jpg" href="assets/imgs/حضانه الاكرم/img/359476659_703373901800361_6117811552900908543_n.jpg">
     <meta name="description" content="حضانة الأكرم تقدم تعليماً متميزاً للأطفال من سن 3 سنوات الى ما قبل المدرسه بشمال سيناء - بئر العبد. نوفر بيئة آمنة لتحفيظ القرآن وتعلم اللغة العربية والإنجليزية.">
     
     <!-- Google Fonts -->
@@ -128,7 +128,7 @@
             min-height: 100vh;
             background: 
                 linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), 
-                url('img/483995655_1124272856377128_3824014307072278689_n.jpg');
+                url('assets/imgs/حضانه الاكرم/img/483995655_1124272856377128_3824014307072278689_n.jpg');
             background-size: cover;
             background-position: center;
             background-attachment: fixed;
@@ -632,6 +632,219 @@
             background: #25d366;
         }
 
+        /* Forms Section */
+        .forms {
+            padding: 5rem 0;
+            background: white;
+        }
+
+        .forms-container {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .form-card {
+            background: white;
+            border-radius: 20px;
+            padding: 3rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            border-left: 5px solid var(--primary-blue);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .form-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+        }
+
+        .form-header {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            margin-bottom: 2rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 2px solid var(--light-bg);
+        }
+
+        .form-icon {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(45deg, var(--primary-blue), #2563eb);
+            color: white;
+            font-size: 1.8rem;
+            flex-shrink: 0;
+        }
+
+        .form-header h3 {
+            font-size: 1.8rem;
+            font-weight: 700;
+            color: var(--dark-bg);
+            margin: 0;
+        }
+
+        .form-details {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .detail-item {
+            background: var(--light-bg);
+            padding: 1.5rem;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        .detail-label {
+            color: #64748b;
+            font-size: 0.9rem;
+            margin-bottom: 0.5rem;
+            display: block;
+        }
+
+        .detail-value {
+            font-size: 1.3rem;
+            font-weight: 700;
+            color: var(--primary-blue);
+        }
+
+        .enrollment-requirements {
+            background: #fef3c7;
+            border-left: 4px solid #f59e0b;
+            padding: 1.5rem;
+            border-radius: 10px;
+            margin-bottom: 2rem;
+        }
+
+        .enrollment-requirements h4 {
+            color: #d97706;
+            margin-bottom: 1rem;
+            font-size: 1.2rem;
+        }
+
+        .enrollment-requirements ul {
+            list-style: none;
+            padding-right: 0;
+        }
+
+        .enrollment-requirements li {
+            color: #64748b;
+            margin-bottom: 0.8rem;
+            display: flex;
+            align-items: flex-start;
+            gap: 10px;
+        }
+
+        .enrollment-requirements li:before {
+            content: "✓";
+            color: #f59e0b;
+            font-weight: bold;
+            flex-shrink: 0;
+        }
+
+        .subjects-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 1rem;
+            margin-bottom: 2rem;
+        }
+
+        .subject-tag {
+            background: linear-gradient(45deg, var(--primary-blue), #2563eb);
+            color: white;
+            padding: 0.8rem 1.2rem;
+            border-radius: 20px;
+            text-align: center;
+            font-weight: 600;
+            font-size: 0.95rem;
+        }
+
+        .form-actions {
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+
+        .btn-success {
+            background: linear-gradient(45deg, var(--primary-green), #059669);
+            color: white;
+            padding: 15px 30px;
+            border-radius: 10px;
+            text-decoration: none;
+            font-weight: 600;
+            border: none;
+            cursor: pointer;
+            transition: all 0.3s;
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .btn-success:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 25px rgba(16, 185, 129, 0.3);
+        }
+
+        .btn-outline {
+            background: white;
+            color: var(--primary-blue);
+            border: 2px solid var(--primary-blue);
+            padding: 13px 28px;
+            border-radius: 10px;
+            text-decoration: none;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s;
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .btn-outline:hover {
+            background: var(--primary-blue);
+            color: white;
+        }
+
+        .regulations-notice {
+            background: #dbeafe;
+            border-left: 4px solid var(--primary-blue);
+            padding: 1.5rem;
+            border-radius: 10px;
+            margin-top: 2rem;
+        }
+
+        .regulations-notice h5 {
+            color: #2563eb;
+            margin-bottom: 1rem;
+        }
+
+        .regulations-notice ul {
+            list-style: none;
+            padding-right: 0;
+        }
+
+        .regulations-notice li {
+            color: #64748b;
+            margin-bottom: 0.5rem;
+            font-size: 0.95rem;
+            display: flex;
+            align-items: flex-start;
+            gap: 8px;
+        }
+
+        .regulations-notice li:before {
+            content: "•";
+            color: var(--primary-blue);
+            font-weight: bold;
+            flex-shrink: 0;
+        }
+
         /* Footer */
         .footer {
             background: #0f172a;
@@ -824,6 +1037,24 @@
             .form-row {
                 grid-template-columns: 1fr;
             }
+
+            .form-details {
+                grid-template-columns: 1fr !important;
+            }
+
+            .subjects-grid {
+                grid-template-columns: repeat(2, 1fr) !important;
+            }
+
+            .form-actions {
+                flex-direction: column;
+            }
+
+            .btn-success,
+            .btn-outline {
+                width: 100%;
+                justify-content: center;
+            }
         }
     </style>
 </head>
@@ -832,7 +1063,7 @@
     <nav class="navbar">
         <div class="nav-container">
             <div class="nav-brand">
-                <img src="img/359476659_703373901800361_6117811552900908543_n.jpg" alt="شعار حضانة الأكرم" class="logo">
+                <img src="assets/imgs/حضانه الاكرم/img/359476659_703373901800361_6117811552900908543_n.jpg" alt="شعار حضانة الأكرم" class="logo">
                 <h1>حضانة الأكرم</h1>
             </div>
             <ul class="nav-menu">
@@ -841,6 +1072,7 @@
                 <li><a href="#activities">الأنشطة</a></li>
                 <li><a href="#gallery">الصور</a></li>
                 <li><a href="#videos">فيديوهات</a></li>
+                <li><a href="#forms">استمارات التقديم</a></li>
                 <li><a href="#contact">تواصل معنا</a></li>
             </ul>
             <button class="hamburger">
@@ -878,7 +1110,7 @@
             </div>
             <div class="about-content">
                 <div class="about-image">
-                    <img src="img/483995655_1124272856377128_3824014307072278689_n.jpg" alt="حضانة الأكرم">
+                    <img src="assets/imgs/حضانه الاكرم/img/483995655_1124272856377128_3824014307072278689_n.jpg" alt="حضانة الأكرم">
                 </div>
                 <div class="about-features">
                     <div class="feature">
@@ -1001,78 +1233,37 @@
             <div class="gallery-grid">
                 <!-- Original Images -->
                 <div class="gallery-item">
-                    <img src="img/35076775_1247527518711903_1149059723417354240_n.jpg" alt="أطفال سعداء في الحضانة">
+                    <img src="assets/imgs/حضانه الاكرم/img/35076775_1247527518711903_1149059723417354240_n.jpg" alt="أطفال سعداء في الحضانة">
                 </div>
                 <div class="gallery-item">
-                    <img src="img/485678469_1129278959209851_2312009280496375839_n.jpg" alt="أنشطة ترفيهية وتعليمية">
+                    <img src="assets/imgs/حضانه الاكرم/img/485678469_1129278959209851_2312009280496375839_n.jpg" alt="أنشطة ترفيهية وتعليمية">
                 </div>
                 <div class="gallery-item">
-                    <img src="img/486003612_1133084798829267_8878463154299439635_n.jpg" alt="التعليم الإسلامي">
+                    <img src="assets/imgs/حضانه الاكرم/img/486003612_1133084798829267_8878463154299439635_n.jpg" alt="التعليم الإسلامي">
                 </div>
                 <div class="gallery-item">
-                    <img src="img/486831249_1136418278495919_5749608162868622977_n.jpg" alt="أطفال في أنشطة حركية">
+                    <img src="assets/imgs/حضانه الاكرم/img/486831249_1136418278495919_5749608162868622977_n.jpg" alt="أطفال في أنشطة حركية">
                 </div>
                 <div class="gallery-item">
-                    <img src="img/487509979_3382663785198255_1837079907563374836_n.jpg" alt="وقت اللعب والمرح">
+                    <img src="assets/imgs/حضانه الاكرم/img/487509979_3382663785198255_1837079907563374836_n.jpg" alt="وقت اللعب والمرح">
                 </div>
                 <div class="gallery-item">
-                    <img src="img/487539049_1141901017947645_5104797655995793555_n.jpg" alt="الأنشطة التعليمية">
+                    <img src="assets/imgs/حضانه الاكرم/img/487539049_1141901017947645_5104797655995793555_n.jpg" alt="الأنشطة التعليمية">
                 </div>
                 <div class="gallery-item">
-                    <img src="img/487808707_3382663778531589_5814973685420978611_n.jpg" alt="اللعب والتعلم">
+                    <img src="assets/imgs/حضانه الاكرم/img/487808707_3382663778531589_5814973685420978611_n.jpg" alt="اللعب والتعلم">
                 </div>
                 <div class="gallery-item">
-                    <img src="img/487824424_1141901364614277_1882352612615811914_n.jpg" alt="الأطفال والأنشطة">
+                    <img src="assets/imgs/حضانه الاكرم/img/487824424_1141901364614277_1882352612615811914_n.jpg" alt="الأطفال والأنشطة">
                 </div>
                 <div class="gallery-item">
-                    <img src="img/487827264_1142588417878905_5725433522470964030_n.jpg" alt="متعة التعلم">
+                    <img src="assets/imgs/حضانه الاكرم/img/487827264_1142588417878905_5725433522470964030_n.jpg" alt="متعة التعلم">
                 </div>
                 <div class="gallery-item">
-                    <img src="img/488257580_3382719258526041_4585279575395280863_n.jpg" alt="الفرح والسعادة">
+                    <img src="assets/imgs/حضانه الاكرم/img/488257580_3382719258526041_4585279575395280863_n.jpg" alt="الفرح والسعادة">
                 </div>
                 <div class="gallery-item">
-                    <img src="img/488552922_1141901367947610_5957119461985729463_n.jpg" alt="أطفال في بيئة آمنة">
-                </div>
-
-                <!-- NEW FACEBOOK IMAGES -->
-                <div class="gallery-item">
-                    <img src="https://scontent.fcai19-2.fna.fbcdn.net/v/t39.30808-6/555413303_1288842386586840_4610979918400996639_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_ohc=S-RL2qu46AAQ7kNvwF4ndiW&_nc_oc=Adm7oGeZmPXsMIS4BB9uTfcyZw756Y6penLfXhUJ2g15cePRhwqNTOrfpT3asrbKcGw&_nc_zt=23&_nc_ht=scontent.fcai19-2.fna&_nc_gid=TYg32Bnvt0KKP_JW0Sf4wQ&oh=00_AfYU-XX56VYTyO61EUOwsRS6G011skrM0Og7Sb8aBmJajw&oe=68DB1A9C" alt="صور جديدة من الحضانة">
-                </div>
-                <div class="gallery-item">
-                    <img src="https://scontent.fcai19-2.fna.fbcdn.net/v/t39.30808-6/552759792_1288839896587089_1326042866626838606_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=833d8c&_nc_ohc=JNvb4cLIdtwQ7kNvwEZIDNW&_nc_oc=Adm4u32PFSUjcvt9vqC_g1_zKSXrShNtveSWoN1U_6WLWvdot2Y_Z6P3J5HCzlQ5jGU&_nc_zt=23&_nc_ht=scontent.fcai19-2.fna&_nc_gid=2Boqyi5Q8USqZ2qhZ460Lw&oh=00_AfbVSEvFWOqdWwSzx41j5pGgyDE3FjOZ0iV1RdGC2whB5w&oe=68DC593B" alt="صور جديدة من الحضانة">
-                </div>
-                <div class="gallery-item">
-                    <img src="https://scontent.fcai19-2.fna.fbcdn.net/v/t39.30808-6/554729776_1288839769920435_660077015054870365_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=833d8c&_nc_ohc=RXHO-u7kiBoQ7kNvwGtW1wZ&_nc_oc=AdleNn1IGZn0euE24zj4PZbGigbz-RVK_9lR91qFsgK_oAiUOGWc38sOFGZmna1Jn0E&_nc_zt=23&_nc_ht=scontent.fcai19-2.fna&_nc_gid=xCz7uITqY1lfCzXcrCObmw&oh=00_Afa44Y1ay7au0lIJel1YdA8S82YqTFkXdtDyd769Iw7IKg&oe=68DC4F02" alt="صور جديدة من الحضانة">
-                </div>
-                <div class="gallery-item">
-                    <img src="https://scontent.fcai19-2.fna.fbcdn.net/v/t39.30808-6/553452316_1288839636587115_6845668220632303816_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=833d8c&_nc_ohc=JPerBlbQ8ygQ7kNvwEjlMiV&_nc_oc=Admn1G0nuzWjjq1koDVODHklFgaRbLQuwok3jMdiImtEtVki7-Gi_MRqex1WwCaguuU&_nc_zt=23&_nc_ht=scontent.fcai19-2.fna&_nc_gid=Zwj13OaeQ0AJ4H0P0BA4cQ&oh=00_AfZH6ycOWn3VncvrrfjUdfs-L0RzyMLvGS_NtD_qmN8OIQ&oe=68DC2AE8" alt="صور جديدة من الحضانة">
-                </div>
-                <div class="gallery-item">
-                    <img src="https://scontent.fcai19-2.fna.fbcdn.net/v/t39.30808-6/554743231_1288841363253609_102169181439610176_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_ohc=3bviDTb6yVwQ7kNvwF2gAUN&_nc_oc=AdkunmqRFjLHCINUbvdolEbpiLbqz5hSAAIgdRnPmvgrQSlDpzlSxsbkvF89tziQRGs&_nc_zt=23&_nc_ht=scontent.fcai19-2.fna&_nc_gid=wvSDBx39t6d7IBt5J1b0Qg&oh=00_AfaYE7eo2N9qPg9qdWH4TrRaUgBcu6xL8TxwxNHbY6jn_g&oe=68DB1800" alt="لحظات سعيدة في الحضانة">
-                </div>
-                <div class="gallery-item">
-                    <img src="https://scontent.fcai19-2.fna.fbcdn.net/v/t39.30808-6/552910269_1288841546586924_8956122131532697375_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=833d8c&_nc_ohc=M7TNx7hTVkYQ7kNvwGQbZL7&_nc_oc=Adkt-71qVR5cZSenQMRYX363G03VhSeaROOco7ZRRlcryRmZF5Gm2-wsiB8KN8GDc1M&_nc_zt=23&_nc_ht=scontent.fcai19-2.fna&_nc_gid=5QKSEv5LgL0r6Zk06QJf5Q&oh=00_AfYL1W8rutnpnc7tvEHRihS9QTPj-sLO5yNcCHsGazLq1A&oe=68DB1575" alt="أطفالنا في أجمل لحظاتهم">
-                </div>
-                <div class="gallery-item">
-                    <img src="https://scontent.fcai19-2.fna.fbcdn.net/v/t39.30808-6/553367314_1288839379920474_2616305382740759406_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=833d8c&_nc_ohc=1M_NLPAvVEcQ7kNvwER050u&_nc_oc=AdmSBm1BFBM5aTwVDKYO1nvjGXQtdUl1xRy3kMkKfe5AhqbarqL5TUirxu4cBq6IqBs&_nc_zt=23&_nc_ht=scontent.fcai19-2.fna&_nc_gid=Y8C9QgT56wx1NbR0LYYYqg&oh=00_AfauhADYIi4e0bxNaLia-E12ArUuqh40JKoLJ-oSBzAGPg&oe=68DB1534" alt="تعلم وإبداع">
-                </div>
-                <div class="gallery-item">
-                    <img src="https://scontent.fcai19-2.fna.fbcdn.net/v/t39.30808-6/553052134_1288841676586911_3166614492569838783_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=833d8c&_nc_ohc=Jj8ahp3jHNoQ7kNvwF_nLsE&_nc_oc=AdlYrnoXb2MJkrO4e314xxVxb0DAbzVjqqsXkjFz0UhrBwtoBtDRaNk-ZmSV2we1CQU&_nc_zt=23&_nc_ht=scontent.fcai19-2.fna&_nc_gid=oSXmECEYisNJ4jfnzLnlzw&oh=00_AfZ_nmgw189Z49FZbF4jsx5hphMjMkcsGgoGoWZ_W0zsOA&oe=68DB0DCB" alt="أوقات مرح وتعلم">
-                </div>
-                <div class="gallery-item">
-                    <img src="https://scontent.fcai19-2.fna.fbcdn.net/v/t39.30808-6/552772989_1288841959920216_1280860868364419322_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=833d8c&_nc_ohc=SKTswz6KM3kQ7kNvwFauEWk&_nc_oc=AdllN8q0X-PW-4ByE1fOkoaO1HDS__8Gt9qG0oLh-1uAGfEf6QbKyIslhvQt9aMgrQo&_nc_zt=23&_nc_ht=scontent.fcai19-2.fna&_nc_gid=Au4Sb71miednpQfyjhw8BQ&oh=00_AfYdMMbK1Bys8cXdgnstCzDTgd7hJ175GM0T-5ZweVa-xw&oe=68DB294D" alt="جو تعليمي رائع">
-                </div>
-                <div class="gallery-item">
-                    <img src="https://scontent.fcai19-2.fna.fbcdn.net/v/t39.30808-6/555556885_1288842146586864_2670618333225358198_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_ohc=vHQOwM4uwN8Q7kNvwGZ5ejQ&_nc_oc=AdlXnncr-NxOpl0bQQmpubyTXx5vBARtr7QaMCKiKUffHdspICQR5yUx7ycS_naP0b4&_nc_zt=23&_nc_ht=scontent.fcai19-2.fna&_nc_gid=uzY7F4OZnrJRAEsR_Y3PHw&oh=00_AfaDnA5vz7OkAvpqG3RXlTte6P8g2f2T6glj-x69DzGNqQ&oe=68DB1DEE" alt="نشاطات متنوعة">
-                </div>
-                <div class="gallery-item">
-                    <img src="https://scontent.fcai19-2.fna.fbcdn.net/v/t39.30808-6/555211780_1288842239920188_3508453442534274387_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=833d8c&_nc_ohc=RlQckG7CjPoQ7kNvwEQoBI_&_nc_oc=AdlOvjBRPQeMYBtiIbbrarNEGAal7DsWpnk9YebEDG2PBGPI7hHNZ9iiiblgkNlBJFI&_nc_zt=23&_nc_ht=scontent.fcai19-2.fna&_nc_gid=H4P8NrPrZRQSD2RbNf7sRQ&oh=00_AfZXCBcbs14D4DJiXzzveiz9qBlR2fX-R6T84Eokd-pIrg&oe=68DB4243" alt="بيئة تعليمية ممتازة">
-                </div>
-                <div class="gallery-item">
-                    <img src="https://scontent.fcai19-2.fna.fbcdn.net/v/t39.30808-6/554726816_1288842286586850_6916695862608297937_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=833d8c&_nc_ohc=Z884rEj5ipEQ7kNvwE2jzL5&_nc_oc=AdnbkFQlGSZva2OUWt9PE4OVMf3LSVzAPXQiI4XU0VLGRbM7YSGYbHuuSEmSIf5DY4c&_nc_zt=23&_nc_ht=scontent.fcai19-2.fna&_nc_gid=oTuN28wJm35hypyObsEHZA&oh=00_AfbGtbdbZ1u-aeuAx7sy4DRsaRf-uMytIDg1ypkBKUrAPA&oe=68DB266B" alt="أطفال سعداء">
-                </div>
-                <div class="gallery-item">
-                    <img src="https://scontent.fcai19-2.fna.fbcdn.net/v/t39.30808-6/554450637_1288842343253511_4264285311666983593_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=833d8c&_nc_ohc=CWyisiZzqSoQ7kNvwEnAeSD&_nc_oc=AdmW7RBSA53MK4ltlwhFD3P6BzUuelAaVKfGXnZloHnP997fzNUyEwFTpX596YOJ-Po&_nc_zt=23&_nc_ht=scontent.fcai19-2.fna&_nc_gid=xfm8pDLoY0e2r8qkBZkNLQ&oh=00_AfYDU7XHlw9_k-cbO7rmbrZiKwZ1n6J-J-LPwCXkvE445g&oe=68DB1932" alt="لحظات تعليمية رائعة">
+                    <img src="assets/imgs/حضانه الاكرم/img/488552922_1141901367947610_5957119461985729463_n.jpg" alt="أطفال في بيئة آمنة">
                 </div>
             </div>
         </div>
@@ -1125,6 +1316,149 @@
         </div>
     </section>
 
+    <!-- Application Forms Section -->
+    <section id="forms" class="forms">
+        <div class="container">
+            <div class="section-header">
+                <h2>استمارات التقديم</h2>
+                <p>قدم الآن وضع طفلك في بيئة آمنة وتعليمية رائعة</p>
+            </div>
+            <div class="forms-container">
+                <!-- Form 1: Academic Year 2026-2027 -->
+                <div class="form-card">
+                    <div class="form-header">
+                        <div class="form-icon">
+                            <i class="fas fa-clipboard-list"></i>
+                        </div>
+                        <h3>العام الدراسي 2026 - 2027</h3>
+                    </div>
+
+                    <div class="form-details">
+                        <div class="detail-item">
+                            <span class="detail-label">رسم الالتحاق</span>
+                            <span class="detail-value">550 جنيه</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">الأقساط الشهرية</span>
+                            <span class="detail-value">350 جنيه</span>
+                        </div>
+                    </div>
+
+                    <div class="enrollment-requirements">
+                        <h4><i class="fas fa-info-circle"></i> متطلبات الالتحاق</h4>
+                        <ul>
+                            <li>صورة ميلاد حديثة للطفل</li>
+                            <li>صورة شهادة الميلاد الأصلية أو صورة من البطاقة الشخصية</li>
+                            <li>3 صور شخصية 4×6 للطفل</li>
+                            <li>شهادة تطعيمات صحيحة (قابلة للتطبيق بناءً على السن)</li>
+                            <li>بيانات ولي الأمر كاملة (رقم هاتفي وعنوان سكني)</li>
+                            <li>التزام ولي الأمر بتوقيعه على شروط والتزامات الحضانة</li>
+                        </ul>
+                    </div>
+
+                    <h4 style="margin-bottom: 1rem; color: var(--dark-bg);">المواد الدراسية:</h4>
+                    <div class="subjects-grid">
+                        <div class="subject-tag">القرآن الكريم</div>
+                        <div class="subject-tag">اللغة العربية</div>
+                        <div class="subject-tag">التحفيظ</div>
+                        <div class="subject-tag">اللغة الإنجليزية (E)</div>
+                        <div class="subject-tag">الحساب</div>
+                        <div class="subject-tag">العقيدة</div>
+                        <div class="subject-tag">الآداب</div>
+                        <div class="subject-tag">القصص</div>
+                        <div class="subject-tag">Math</div>
+                        <div class="subject-tag">Yocie Math</div>
+                        <div class="subject-tag">الأنشطة</div>
+                        <div class="subject-tag">المحفوظات</div>
+                    </div>
+
+                    <div class="regulations-notice">
+                        <h5><i class="fas fa-check-circle"></i> شروط هامة</h5>
+                        <ul>
+                            <li>يبدأ استقبال الطلاب من الساعة 7:30 صباحاً والخروج من الساعة 12:30 ظهراً</li>
+                            <li>يتم استيلام الطفل من الآباء أو الممثل القانوني المصرح</li>
+                            <li>ضرورة الالتزام بمواعيد الاستيلام وعدم التأخير</li>
+                            <li>الحضانة ليست مسؤولة عن الأشياء المنسية داخل الحضانة</li>
+                            <li>يُسمح بسحب الطفل بعد مرور يوم واحد من فترة التحاق</li>
+                            <li>يتم الرسوم والالتحاق بعد اجتياز الطفل للمقابلة الشخصية</li>
+                            <li>التدرج على الطفل والتعريف به على المكان والمعلمات والأطفال الآخرين</li>
+                            <li>يُمنع إدخال ألعاب أو مأكولات أو حلويات أو أي أشياء من الخارج</li>
+                            <li>الالتزام بالأخلاق والسلوك الحسن من قبل ولي الأمر</li>
+                            <li>يتم الفصل بعد يوم واحد من عدم دفع رسوم الالتحاق أو الأقساط</li>
+                            <li>المدة الزمنية لفترة التحاق ما بين 15 - 20 يوم تقريباً</li>
+                        </ul>
+                    </div>
+
+                    <h4 style="margin-top: 2rem; margin-bottom: 1rem; color: var(--dark-bg);">مواد الدراسة الإجمالية:</h4>
+                    <p style="color: #64748b; margin-bottom: 1.5rem; font-weight: 500;">
+                        (اذكار - قران - تحفيظ - عربي - حساب - إنجليزي - E - عقيدة - آداب - قصص - ماث - أنشطة - محفوظات)
+                    </p>
+
+                    <div class="form-actions">
+                        <a href="https://wa.me/2001005218547?text=أريد معلومات عن استمارة التقديم للعام الدراسي 2026-2027" target="_blank" class="btn-success">
+                            <i class="fab fa-whatsapp"></i>
+                            تقديم الطلب عبر واتساب
+                        </a>
+                        <a href="tel:01022924675" class="btn-outline">
+                            <i class="fas fa-phone"></i>
+                            اتصل بنا
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Additional Info Box -->
+                <div class="form-card" style="border-left-color: var(--primary-green);">
+                    <div class="form-header">
+                        <div class="form-icon" style="background: linear-gradient(45deg, var(--primary-green), #059669);">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <h3>معلومات مهمة</h3>
+                    </div>
+
+                    <div style="background: #f0fdf4; padding: 1.5rem; border-radius: 10px; margin-bottom: 1.5rem;">
+                        <h4 style="color: var(--primary-green); margin-bottom: 1rem;">فروع حضانة الأكرم</h4>
+                        <div style="display: grid; gap: 1rem;">
+                            <div>
+                                <strong style="color: var(--dark-bg);">🏫 فرع شمال سيناء - بئر العبد</strong>
+                                <p style="color: #64748b; margin-top: 0.5rem;">📞 01022924675</p>
+                            </div>
+                            <div>
+                                <strong style="color: var(--dark-bg);">🏫 فرع شمال سيناء - قرية النصر</strong>
+                                <p style="color: #64748b; margin-top: 0.5rem;">📞 01005218547</p>
+                            </div>
+                            <div>
+                                <strong style="color: var(--dark-bg);">🏫 فرع شمال سيناء - قرية نجيله</strong>
+                                <p style="color: #64748b; margin-top: 0.5rem;">📞 01005218547</p>
+                            </div>
+                            <div>
+                                <strong style="color: var(--dark-bg);">🏫 فرع محافظة الغربيه - قرية سندبسط</strong>
+                                <p style="color: #64748b; margin-top: 0.5rem;">📞 01558531352</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div style="background: #fef3c7; padding: 1.5rem; border-radius: 10px;">
+                        <h4 style="color: #d97706; margin-bottom: 1rem;">ملاحظات مهمة</h4>
+                        <ul style="list-style: none; padding: 0; margin: 0;">
+                            <li style="color: #64748b; margin-bottom: 0.8rem; display: flex; gap: 8px;">
+                                <span style="color: #f59e0b; font-weight: bold;">→</span>
+                                <span>تتم معالجة طلبات التقديم على أساس التسجيل المبكر</span>
+                            </li>
+                            <li style="color: #64748b; margin-bottom: 0.8rem; display: flex; gap: 8px;">
+                                <span style="color: #f59e0b; font-weight: bold;">→</span>
+                                <span>يمكنك الاستفسار عن أي تفاصيل إضافية عبر الاتصال بنا مباشرة</span>
+                            </li>
+                            <li style="color: #64748b; margin-bottom: 0.8rem; display: flex; gap: 8px;">
+                                <span style="color: #f59e0b; font-weight: bold;">→</span>
+                                <span>نوفر بيئة آمنة وتعليمية عالية الجودة لأطفالكم</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Contact Section -->
     <section id="contact" class="contact">
         <div class="container">
@@ -1170,7 +1504,7 @@
             <div class="footer-content">
                 <div class="footer-section">
                     <div class="footer-brand">
-                        <img src="img/359476659_703373901800361_6117811552900908543_n.jpg" alt="شعار حضانة الأكرم" class="footer-logo">
+                        <img src="assets/imgs/حضانه الاكرم/img/359476659_703373901800361_6117811552900908543_n.jpg" alt="شعار حضانة الأكرم" class="footer-logo">
                         <h3>حضانة الأكرم</h3>
                     </div>
                     <p>مكان آمن ومحب لتعليم وتربية أطفالكم بأفضل الطرق الحديثة</p>
@@ -1181,6 +1515,7 @@
                         <li><a href="#home">الرئيسية</a></li>
                         <li><a href="#about">عن الحضانة</a></li>
                         <li><a href="#activities">الأنشطة</a></li>
+                        <li><a href="#forms">استمارات التقديم</a></li>
                         <li><a href="#videos">فيديوهات</a></li>
                     </ul>
                 </div>
@@ -1377,5 +1712,3 @@
     </script>
 </body>
 </html>
-
-
